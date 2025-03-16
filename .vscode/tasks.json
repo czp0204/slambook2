@@ -9,8 +9,8 @@
                 "-g",
                 "-I/usr/include/eigen3", // Add the Eigen include path here
                 "${file}",
-                "-o",
-                "${workspaceFolder}/build/${fileRelativePath:h}/build/${fileBasenameNoExtension}"
+                "-o0",
+                "${workspaceFolder}/ch3/build/useEigen/eigenMatrix"
             ],
             "group": {
                 "kind": "build",

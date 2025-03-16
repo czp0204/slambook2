@@ -5,12 +5,12 @@
             "name": "Debug Current Cpp",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/${fileRelativePath:h}/build/${fileBasenameNoExtension}",  // 关联当前文件编译生成的可执行文件
+            "program": "${workspaceFolder}/ch3/build/useEigen/eigenMatrix",  // 关联当前文件编译生成的可执行文件
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${fileDirname}",  // 设置工作目录为当前文件所在目录
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
                 {
