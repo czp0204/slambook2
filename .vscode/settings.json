@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "core": "cpp"
     },
     "cmake.sourceDirectory": "/home/czp/SLAM14/src/slambook2/ch2"
 }

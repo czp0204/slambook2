@@ -3,6 +3,7 @@ project(useEigen)
 
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-O3")
+find_package(Eigen3 REQUIRED)
 
 # 添加Eigen头文件
 include_directories("/usr/include/eigen3")
